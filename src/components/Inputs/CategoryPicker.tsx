@@ -1,4 +1,3 @@
-import { ProjectCategory, SkillCategory } from '@prisma/client';
 import { ChangeEvent } from 'react';
 
 type Value = string | number | readonly string[];

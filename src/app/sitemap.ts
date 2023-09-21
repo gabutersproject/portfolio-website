@@ -11,14 +11,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: 'https://mhmmdamir.biz.id/skills',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://mhmmdamir.biz.id/projects',
-      lastModified: new Date(),
-    },
-    {
       url: 'https://mhmmdamir.biz.id/contact',
       lastModified: new Date(),
     },

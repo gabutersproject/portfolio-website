@@ -1,4 +1,3 @@
-import { SkillCategory } from '@prisma/client';
 import clsx from 'clsx';
 import { Dispatch, SetStateAction } from 'react';
 
