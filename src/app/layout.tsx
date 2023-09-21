@@ -3,7 +3,6 @@ import './globals.css';
 
 import ScrollToTopButton from '@/components/Buttons/ScrollToTopButton';
 import Navbar from '@/components/Navbar/Navbar';
-import NextAuthWrapper from '@/components/NextAuthWrapper';
 import Providers from './providers';
 
 import { Metadata } from 'next';

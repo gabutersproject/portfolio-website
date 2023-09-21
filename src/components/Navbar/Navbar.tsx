@@ -19,14 +19,6 @@ const contents = [
     title: 'About',
   },
   {
-    target: '/skills',
-    title: 'Skills',
-  },
-  {
-    target: '/projects',
-    title: 'Projects',
-  },
-  {
     target: '/contact',
     title: 'Contact',
   },
