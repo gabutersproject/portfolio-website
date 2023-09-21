@@ -56,14 +56,12 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           <div className='relative py-6 px-8 mx-auto mt-16 md:px-16 md:mt-14 lg:container lg:px-32 xl:px-72'>
-            <NextAuthWrapper>
               <NextTopLoader showSpinner={false} color='#98971a' />
               {children}
               <Toaster
                 position='bottom-right'
                 reverseOrder={false}
               />
-            </NextAuthWrapper>
             <ScrollToTopButton />
           </div>
         </Providers>
