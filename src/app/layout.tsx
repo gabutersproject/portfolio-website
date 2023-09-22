@@ -65,11 +65,6 @@ export default function RootLayout({
             <ScrollToTopButton />
           </div>
         </Providers>
-        <Script
-          async
-          src='https://analytics.umami.is/script.js'
-          data-website-id='c306b611-d27b-4966-b6f1-a4ac7f51fdc9'
-        />
       </body>
     </html>
   );

@@ -4,7 +4,7 @@ import Title from '../Title';
 import Image from 'next/image';
 
 const contents = [
-  `Hello, world! My name is Muhammad Amit. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast. I live in Bekasi, Indonesia. I was born in Bekasi on October 9, 2002 (21
+  `Hello, world! My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast. I live in Bekasi, Indonesia. I was born in Bekasi on October 9, 2002 (21
    years old).`,
   `I have experience as a Production Operator. I have an interest in a career as a 
    Technician. I’m a fast learner and self-taught. I have
