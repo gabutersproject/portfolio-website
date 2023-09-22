@@ -1,4 +1,4 @@
-import avatar from '../../../public/img/amir-real-face.png';
+import avatar from '../../../public/img/amir.png';
 import Title from '../Title';
 
 import Image from 'next/image';

@@ -1,5 +1,4 @@
 import ContactListItem from '@/components/Contact/ContactListItem';
-import Form from '@/components/Contact/Form';
 import Title from '@/components/Title';
 
 import { Metadata } from 'next';
@@ -47,8 +46,8 @@ const contents: SocialMedia[] = [
   },
   {
     name: 'Email',
-    username: 'muhammad.amier2002@gmail.com',
-    url: 'mailto:muhammad.amier2002@gmail.com',
+    username: 'm.amir092002@gmail.com',
+    url: 'mailto:m.amir092002@gmail.com',
   },
 ];
 
