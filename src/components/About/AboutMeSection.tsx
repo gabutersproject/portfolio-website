@@ -1,4 +1,4 @@
-import avatar from '../../../public/img/amir-real-face.jpg';
+import avatar from '../../../public/img/amir-real-face.png';
 import Title from '../Title';
 
 import Image from 'next/image';
@@ -6,9 +6,7 @@ import Image from 'next/image';
 const contents = [
   `Hello, world! My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast. I live in Bekasi, Indonesia. I was born in Bekasi on October 9, 2002 (21
    years old).`,
-  `I have experience as a Production Operator. I have an interest in a career as a 
-   Technician. I’m a fast learner and self-taught. I have
-   learned a lot of new technologies in the past few years by myself on the Internet.`,
+  `I have experience as a Production Operator. I have an interest in a career as a Technician. I’m a fast learner and self-taught. I have learned a lot of new technologies in the past few years by myself on the Internet.`,
 ];
 
 const AboutMeSection = () => {
@@ -33,7 +31,6 @@ const AboutMeSection = () => {
           width={256}
           className='mx-auto w-64 h-auto rounded-full'
           priority
-          placeholder='blur'
           sizes='(max-width: 768px) 256px, (max-width: 1200px) 224px, 256px'
         />
       </div>
