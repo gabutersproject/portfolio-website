@@ -70,12 +70,6 @@ const ContactPage = () => {
           </ul>
         </div>
       </div>
-      <div className="space-y-4">
-        <Title>Message</Title>
-        <div>
-          <Form />
-        </div>
-      </div>
     </main>
   );
 };
