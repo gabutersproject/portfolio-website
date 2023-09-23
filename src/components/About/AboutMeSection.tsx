@@ -4,9 +4,8 @@ import Title from '../Title';
 import Image from 'next/image';
 
 const contents = [
-  `Hello, world! My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast. I live in Bekasi, Indonesia. I was born in Bekasi on October 9, 2002 (21
-   years old).`,
-  `I have experience as a Production Operator. I have an interest in a career as a Technician. I’m a fast learner and self-taught. I have learned a lot of new technologies in the past few years by myself on the Internet.`,
+  `Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast. I live in Bekasi, Indonesia. I was born in Bekasi on October 9, 2002 (21 years old).`,
+  `I have experience as a Production Operator. I have an interest in a career in a manufacturing company. I am a person who has a high willingness to learn, adapt to change and also enjoy learning technical things.`,
 ];
 
 const AboutMeSection = () => {

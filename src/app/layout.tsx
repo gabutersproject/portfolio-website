@@ -13,7 +13,7 @@ import { Toaster } from 'react-hot-toast';
 export const metadata: Metadata = {
   title: 'Muhammad Amir - Gabuters Developer',
   description:
-    "Hello, world! My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
+    "Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
   authors: {
     name: 'Muhammad Amir',
   },
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     creator: 'Muhammad Amir',
     title: 'Muhammad Amir - Gabuters Developer',
     description:
-      "Hello, world! My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
+      "Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
     card: 'summary',
     site: 'https://mhmmdamir.biz.id',
   },
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     description:
-      "Hello, world! My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
+      "Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
     title: 'Muhammad Amir - Gabuters Developer',
     url: 'https://mhmmdamir.biz.id',
     type: 'website',
