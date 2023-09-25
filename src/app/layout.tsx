@@ -22,10 +22,10 @@ export const metadata: Metadata = {
       '/apple-touch-icon.png?v=4',
     ],
     shortcut: [
-      '/apple-touch-icon.png'
-    ]
+      '/apple-touch-icon.png',
+    ],
   },
-  manifest: '/site.webmanifest'
+  manifest: '/site.webmanifest',
   authors: {
     name: 'Muhammad Amir',
   },
