@@ -11,7 +11,7 @@ import NextTopLoader from 'nextjs-toploader';
 import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
-  title: 'Muhammad Amir - Gabuters Developer',
+  title: 'Muhammad Amir - Portfolio',
   description:
     "Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
   authors: {
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   creator: 'Muhammad Amir',
   twitter: {
     creator: 'Muhammad Amir',
-    title: 'Muhammad Amir - Gabuters Developer',
+    title: 'Muhammad Amir - Portfolio',
     description:
       "Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
     card: 'summary',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     description:
       "Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
-    title: 'Muhammad Amir - Gabuters Developer',
+    title: 'Muhammad Amir - Portfolio',
     url: 'https://mhmmdamir.biz.id',
     type: 'website',
   },
