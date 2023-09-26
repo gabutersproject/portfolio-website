@@ -14,18 +14,6 @@ export const metadata: Metadata = {
   title: 'Muhammad Amir - Portfolio',
   description:
     "Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
-  icons: {
-    icon: [
-      '/favicon.ico?v=4',
-    ],
-    apple: [
-      '/apple-touch-icon.png?v=4',
-    ],
-    shortcut: [
-      '/apple-touch-icon.png',
-    ],
-  },
-  manifest: '/site.webmanifest',
   authors: {
     name: 'Muhammad Amir',
   },
@@ -55,6 +43,18 @@ export const metadata: Metadata = {
     type: 'website',
   },
   metadataBase: new URL('https://mhmmdamir.biz.id'),
+  icons: {
+    icon: [
+      '/favicon.ico?v=4',
+    ],
+    apple: [
+      '/apple-touch-icon.png?v=4',
+    ],
+    shortcut: [
+      '/apple-touch-icon.png',
+    ],
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
