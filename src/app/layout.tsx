@@ -24,25 +24,25 @@ export const metadata: Metadata = {
     description:
       "Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
     card: 'summary',
-    site: 'https://mhmmdamir.biz.id',
+    site: 'https://muhammadamir.my.id',
   },
   keywords: [
     'Muhammad Amir',
-    'mhmmdamir',
-    'Gabuters Developer',
-    'Production Operator',
-    'Technician',
-    'Automotive',
-    'Engineering',
+    'muhammadamir',
+    'Amir portfolio',
+    'Amir gabuters',
+    'Muhammad amir portfolio',
+    'Muhammad amir gabuters',
+    'Muhammad amir developer',
   ],
   openGraph: {
     description:
       "Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast.",
     title: 'Muhammad Amir - Portfolio',
-    url: 'https://mhmmdamir.biz.id',
+    url: 'https://muhammadamir.my.id',
     type: 'website',
   },
-  metadataBase: new URL('https://mhmmdamir.biz.id'),
+  metadataBase: new URL('https://muhammadamir.my.id'),
 };
 
 export default function RootLayout({

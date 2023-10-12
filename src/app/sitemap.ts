@@ -3,15 +3,15 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://mhmmdamir.biz.id',
+      url: 'https://muhammadamir.my.id',
       lastModified: new Date(),
     },
     {
-      url: 'https://mhmmdamir.biz.id/about',
+      url: 'https://muhammadamir.my.id/about',
       lastModified: new Date(),
     },
     {
-      url: 'https://mhmmdamir.biz.id/contact',
+      url: 'https://muhammadamir.my.id/contact',
       lastModified: new Date(),
     },
   ];

@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://mhmmdamir.biz.id/sitemap.xml',
+    sitemap: 'https://muhammadamir.my.id/sitemap.xml',
   }
 }

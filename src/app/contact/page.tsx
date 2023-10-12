@@ -35,14 +35,14 @@ const contents: SocialMedia[] = [
     url: 'https://instagram.com/amier_san09',
   },
   {
-    name: 'LinkedIn',
-    username: 'Muhammad Amir',
-    url: 'https://www.linkedin.com/in/mhmmdamir',
-  },
-  {
     name: 'Facebook',
     username: 'Muhammad Amier',
     url: 'https://www.facebook.com/Amierrockability',
+  },
+  {
+    name: 'LinkedIn',
+    username: 'Muhammad Amir',
+    url: 'https://www.linkedin.com/in/mhmmdamir',
   },
   {
     name: 'Email',
