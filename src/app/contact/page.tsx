@@ -46,8 +46,8 @@ const contents: SocialMedia[] = [
   },
   {
     name: 'Email',
-    username: 'm.amir092002@gmail.com',
-    url: 'mailto:m.amir092002@gmail.com',
+    username: 'amier@gabuterscape.my.id',
+    url: 'mailto:amier@gabuterscape.my.id',
   },
 ];
 

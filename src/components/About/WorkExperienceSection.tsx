@@ -5,7 +5,7 @@ import WorkExperienceListItem from './WorkExperienceListItem';
 const contents = [
   {
     company: 'PT. Indotama Baladewa Kurnia',
-    period: 'June 2022 – Present',
+    period: 'Mei 2022 – February 2024',
     role: 'Production Operator',
     jobList: [
       'Carrying out the drilling process on bolt material and undergoing K3 at the company.',
