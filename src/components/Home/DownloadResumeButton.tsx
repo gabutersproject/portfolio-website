@@ -1,9 +1,25 @@
-const DownloadResumeButton = () => {
+import React from 'react';
+
+interface DownloadResumeButtonProps {
+  filePath?: string;
+  text?: string;
+  target?: '_blank' | '_self' | '_parent' | '_top';
+  ariaLabel?: string;
+}
+
+const DownloadResumeButton: React.FC<DownloadResumeButtonProps> = ({
+  filePath = '/documents/CV-MuhammadAmir.pdf',
+  text = 'View CV',
+  target = '_blank',
+  ariaLabel = 'Download resume',
+}) => {
   return (
     <a
-      href='/documents/CV-MuhammadAmir.pdf'
-      target='_blank'
+      href={filePath}
+      target={target}
+      aria-label={ariaLabel}
       className='flex items-center py-2 px-4 mx-auto text-sm font-medium text-gray-900 bg-white rounded-lg border border-gray-300 transition duration-300 md:py-2.5 md:px-5 md:mx-0 dark:text-white dark:bg-gray-800 dark:border-gray-600 hover:bg-gray-200 focus:ring-4 focus:ring-gray-200 focus:outline-none w-fit dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700'
+      rel={target === '_blank' ? 'noopener noreferrer' : undefined}
     >
       <svg
         xmlns='http://www.w3.org/2000/svg'
@@ -19,7 +35,7 @@ const DownloadResumeButton = () => {
         <path d='M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z' />
       </svg>
 
-      View CV
+      {text}
     </a>
   );
 };
