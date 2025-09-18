@@ -4,8 +4,7 @@ import Title from '../Title';
 import Image from 'next/image';
 
 const contents = [
-  `Hello world!, My name is Muhammad Amir. I'm a Production Operator, Technician, Automotive Engineering, Gabuters Developer, and AOSP/Linux Kernel Enthusiast. I live in Bekasi, Indonesia. I was born in Bekasi on October 9, 2002 (21 years old).`,
-  `I have experience as a Production Operator. I have an interest in a career in a manufacturing company. I am a person who has a high willingness to learn, adapt to change and also enjoy learning technical things.`,
+  `Hello World! My name is Muhammad Amir, a Production Operator, Technician, Automotive Engineer, Gabuters Developer, and AOSP/Linux Kernel Enthusiast. I was born and raised in Bekasi, Indonesia October 9, 2002. With hands-on experience as a Production Operator and in Motorcycle Automotive Engineering, I have built a strong foundation in both manufacturing processes and technical problem-solving. I am passionate about pursuing a career in the manufacturing industry, driven by my curiosity for technology and continuous improvement. I enjoy adapting to new challenges, learning technical skills, and applying innovative solutions to real-world problems.`,
 ];
 
 const AboutMeSection = () => {
