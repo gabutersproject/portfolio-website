@@ -6,7 +6,6 @@ import Navbar from '@/components/Navbar/Navbar';
 import Providers from './providers';
 
 import { Metadata } from 'next';
-import Script from 'next/script';
 import NextTopLoader from 'nextjs-toploader';
 import { Toaster } from 'react-hot-toast';
 
