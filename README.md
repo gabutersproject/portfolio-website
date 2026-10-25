@@ -1,21 +1,21 @@
 # Portfolio Website
 
-Situs portfolio Muhammad Amir. Dibangun dengan Next.js 13, React 18, dan Tailwind CSS.
+Muhammad Amir's portfolio site. Built with Next.js 13, React 18, and Tailwind CSS.
 
-Halaman yang tersedia:
+Pages:
 
-- `/` — beranda
-- `/about` — profil, pendidikan, dan pengalaman kerja
-- `/contact` — tautan kontak
+- `/` — home
+- `/about` — profile, education, and work experience
+- `/contact` — contact links
 
-## Prasyarat
+## Prerequisites
 
-- [Node.js](https://nodejs.org/) 18 atau lebih baru (Node.js 22 juga bisa)
-- npm, yang sudah ikut terpasang bersama Node.js
+- [Node.js](https://nodejs.org/) 18 or newer (Node.js 22 works too)
+- npm, which comes with Node.js
 
-Tidak perlu file `.env`. Situs ini statis dan tidak membutuhkan variabel lingkungan untuk dijalankan.
+No `.env` file is required. The site is static and does not need environment variables to run.
 
-## Menjalankan secara lokal
+## Run locally
 
 ```bash
 git clone https://github.com/gabutersproject/portfolio-website.git
@@ -24,30 +24,30 @@ npm install
 npm run dev
 ```
 
-Buka [http://localhost:3000](http://localhost:3000).
+Open [http://localhost:3000](http://localhost:3000).
 
-Jika port 3000 sudah dipakai:
+If port 3000 is already in use:
 
 ```bash
 npm run dev -- --port 3001
 ```
 
-Hentikan server dengan `Ctrl+C`.
+Stop the server with `Ctrl+C`.
 
-## Perintah lain
+## Other commands
 
-| Perintah | Fungsi |
+| Command | Purpose |
 | --- | --- |
-| `npm run dev` | Server pengembangan dengan hot reload |
-| `npm run lint` | Pemeriksaan ESLint |
-| `npm run build` | Build produksi |
-| `npm run start` | Menjalankan hasil build di [http://localhost:3000](http://localhost:3000) |
+| `npm run dev` | Development server with hot reload |
+| `npm run lint` | ESLint |
+| `npm run build` | Production build |
+| `npm run start` | Serve the production build at [http://localhost:3000](http://localhost:3000) |
 
-`npm run start` hanya dipakai setelah `npm run build`.
+Run `npm run build` before `npm run start`.
 
 ## Bun
 
-Hook git di `lefthook.yml` memanggil `bunx`. Itu tidak wajib untuk menjalankan situs. Jika Node dan Bun sama-sama terpasang, perintah yang setara:
+The git hooks in `lefthook.yml` call `bunx`. Bun is optional for running the site. If both Node.js and Bun are installed, the equivalent commands are:
 
 ```bash
 bun install
